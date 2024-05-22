@@ -10,8 +10,31 @@
 
     <body>
 
-        <h1>Hello</h1>
+        <h1 id="Weather_header">Get the Temperature</h1>
 
+        <br>
+        <br>
+
+        <h2>Type in a latitude and longtitude to get the weather</h2>
+
+
+        <form id= "Weather_form" name="Form_For_Weather">
+            <label for="lattitude">Put lattitude here</label>
+            <input type="number" name="lattitude" required = True step="any">
+            <br><br>
+            <label for="usersEmail">Put longtitude here</label>
+            <input type="number" name="longtitude" required = True step="any">
+            <br><br>
+            <label for="submit_button">Submit here</label>
+            <br>
+            <button id="submit_button" type="submit">Submit</button> 
+        </form>
+
+        <div id="list_for_temp">
+            <ul>
+
+            </ul>
+        </div>
 
         <script src="index.js"></script>
     </body>
